@@ -1,0 +1,54 @@
+[
+  {
+    "browserType": "chrome",
+    "name": "Иван",
+    "surname": "Иванов",
+    "address": "Ленина 10",
+    "metroStation": "Маяковская",
+    "phoneNumber": "+79161234567",
+    "deliveryDate": "10.12.2024",
+    "rentalTerm": "сутки",
+    "color": "чёрный жемчуг",
+    "comment": "Нет комментариев",
+    "buttonType": "top"
+  },
+  {
+    "browserType": "chrome",
+    "name": "Мария",
+    "surname": "Петрова",
+    "address": "Тверская 15",
+    "metroStation": "Киевская",
+    "phoneNumber": "+79169876543",
+    "deliveryDate": "11.12.2024",
+    "rentalTerm": "трое суток",
+    "color": "серая безысходность",
+    "comment": "Пожалуйста, будьте осторожны!",
+    "buttonType": "bottom"
+  },
+  {
+    "browserType": "firefox",
+    "name": "Иван",
+    "surname": "Иванов",
+    "address": "Ленина 10",
+    "metroStation": "Маяковская",
+    "phoneNumber": "+79161234567",
+    "deliveryDate": "30.12.2024",
+    "rentalTerm": "сутки",
+    "color": "чёрный жемчуг",
+    "comment": "Нет комментариев",
+    "buttonType": "top"
+  },
+  {
+    "browserType": "firefox",
+    "name": "Мария",
+    "surname": "Петрова",
+    "address": "Тверская 15",
+    "metroStation": "Сокольники",
+    "phoneNumber": "+79169876543",
+    "deliveryDate": "31.12.2024",
+    "rentalTerm": "трое суток",
+    "color": "серая безысходность",
+    "comment": "Пожалуйста, будьте осторожны!",
+    "buttonType": "bottom"
+  }
+]
