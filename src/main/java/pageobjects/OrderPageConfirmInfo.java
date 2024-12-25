@@ -14,7 +14,7 @@ public class OrderPageConfirmInfo {
 
     private final WebDriver driver;
     private final WebDriverWait wait;
-    private static final Logger logger = LoggerFactory.getLogger(OrderPageConfirmInfo.class);
+    protected static final Logger logger = LoggerFactory.getLogger(OrderPageConfirmInfo.class);
 
     // Локаторы
     private static final By MODAL_HEADER_LOCATOR = By.xpath("//div[contains(@class, 'Order_ModalHeader__3FDaJ') and text()='Заказ оформлен']");
@@ -23,7 +23,7 @@ public class OrderPageConfirmInfo {
     // Конструктор
     public OrderPageConfirmInfo(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     }
 
     // Получить текст заголовка модального окна

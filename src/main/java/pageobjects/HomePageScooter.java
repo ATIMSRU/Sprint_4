@@ -8,9 +8,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.time.Duration;
 
+import static pageobjects.OrderPageConfirmInfo.logger;
+
 public class HomePageScooter {
     private final WebDriver driver;
     private final WebDriverWait wait; // Явные ожидания
+
 
     // Локаторы для элементов страницы
     private final By faqSection = By.className("accordion"); // Секция FAQ
@@ -76,5 +79,19 @@ public class HomePageScooter {
     public void clickOrderButtonBottom() {
         WebElement bottomOrderButton = wait.until(ExpectedConditions.elementToBeClickable(orderButtonBottom));
         bottomOrderButton.click();
+    }
+
+    // Выбор кнопки "Заказать" в зависимости от типа кнопки.
+
+    public void clickOrderButton(String buttonType) {
+        if ("top".equalsIgnoreCase(buttonType)) {
+            clickOrderButtonTop();
+            logger.info("Клик по верхней кнопке 'Заказать'.");
+        } else if ("bottom".equalsIgnoreCase(buttonType)) {
+            clickOrderButtonBottom();
+            logger.info("Клик по нижней кнопке 'Заказать'.");
+        } else {
+            throw new IllegalArgumentException("Неверный тип кнопки: " + buttonType);
+        }
     }
 }

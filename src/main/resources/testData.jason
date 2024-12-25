@@ -1,0 +1,24 @@
+{
+  "dataSet1": {
+    "name": "Иван",
+    "surname": "Иванов",
+    "address": "ул. Ленина, д. 10, кв. 5",
+    "metroStation": "Краснопресненская",
+    "phone": "+7 912 345 67 89",
+    "deliveryDate": "25.12.2024",
+    "rentalTerm": "7 дней",
+    "scooterColor": "чёрный жемчуг",
+    "comment": "Оставьте на пороге"
+  },
+  "dataSet2": {
+    "name": "Анна",
+    "surname": "Петрова",
+    "address": "ул. Тверская, д. 20, кв. 8",
+    "metroStation": "Пушкинская",
+    "phone": "+7 905 123 45 67",
+    "deliveryDate": "30.12.2024",
+    "rentalTerm": "3 дня",
+    "scooterColor": "серая безысходность",
+    "comment": "Перезвоните перед доставкой"
+  }
+}
